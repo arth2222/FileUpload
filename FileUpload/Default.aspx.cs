@@ -14,6 +14,9 @@ namespace FileUpload
         {
             if (!Page.IsPostBack)
                 GetImages();
+            string textPath = Server.MapPath("~");
+            LabelText.Text=File.ReadAllText(textPath+"\\content.txt");
+
         }
 
         private void GetImages()

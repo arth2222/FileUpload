@@ -64,6 +64,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="content.txt" />
     <Content Include="Default.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Upload.aspx" />

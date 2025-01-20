@@ -8,6 +8,11 @@
 </head>
 <body>
     <form id="form1" runat="server">
+
+        <p>
+        <asp:Label ID="LabelText" runat="server" Text="Label"></asp:Label>
+        </p>
+
         <asp:DataList ID="DataList1" runat="server" OnItemCommand="DataList1_ItemCommand">
             <ItemTemplate>
                 <img height="300" src="<%# Container.DataItem %>" />
