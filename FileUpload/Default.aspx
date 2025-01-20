@@ -7,6 +7,12 @@
     <title></title>
 </head>
 <body>
+
+    <h1>uke 37 plakat</h1>
+
+    ditt bilde her<br />
+    <img height="300" src="mittbilde.jpg" />
+
     <form id="form1" runat="server">
 
         <p>
